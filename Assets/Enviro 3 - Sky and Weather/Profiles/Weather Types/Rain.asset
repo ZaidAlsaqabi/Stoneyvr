@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbac6e678443724c9bd2baf5d564c1d, type: 3}
   m_Name: Rain
   m_EditorClassIdentifier: 
-  showEditor: 0
+  showEditor: 1
   showEffectControls: 0
   showCloudControls: 0
   showFlatCloudControls: 0
@@ -21,9 +21,9 @@ MonoBehaviour:
   showLightingControls: 0
   showAuroraControls: 0
   showEnvironmentControls: 0
-  showAudioControls: 0
-  showAmbientAudioControls: 0
-  showWeatherAudioControls: 0
+  showAudioControls: 1
+  showAmbientAudioControls: 1
+  showWeatherAudioControls: 1
   showLightningControls: 0
   cloudsOverride:
     ambientLightIntensity: 0.6
@@ -75,6 +75,7 @@ MonoBehaviour:
   lightingOverride:
     directLightIntensityModifier: 0.5
     ambientIntensityModifier: 0.6
+    shadowIntensity: 1
   skyOverride:
     intensity: 1
     skyColorTint: {r: 1, g: 1, b: 1, a: 1}
@@ -105,7 +106,7 @@ MonoBehaviour:
     weatherOverride:
     - showEditor: 1
       name: Medium Rain
-      volume: 1
+      volume: 0.445
       spring: 0
       summer: 0
       autumn: 0

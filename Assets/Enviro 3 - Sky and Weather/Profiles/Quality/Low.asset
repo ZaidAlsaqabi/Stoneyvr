@@ -12,36 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfcd10a1b99270a488a19072f6176530, type: 3}
   m_Name: Low
   m_EditorClassIdentifier: 
-  showEditor: 0
-  showSky: 0
-  showVolumeClouds: 0
+  showEditor: 1
+  showSky: 1
+  showVolumeClouds: 1
   showFog: 0
-  showFlatClouds: 0
-  showEffects: 0
-  showAurora: 0
+  showFlatClouds: 1
+  showEffects: 1
+  showAurora: 1
   skyOverride:
     skyMode: 1
   volumetricCloudsOverride:
     volumetricClouds: 1
     dualLayer: 0
-    downsampling: 4
+    downsampling: 3
     stepsLayer1: 128
     stepsLayer2: 64
     blueNoiseIntensity: 2
     reprojectionBlendTime: 3
     lodDistance: 0.7
   fogOverride:
-    fog: 1
+    fog: 0
     fogQualityMode: 1
     volumetrics: 0
     unityFog: 0
     quality: 0
     steps: 32
   flatCloudsOverride:
-    cirrusClouds: 1
+    cirrusClouds: 0
     flatClouds: 0
   auroraOverride:
     aurora: 0
     steps: 32
   effectsOverride:
-    particeEmissionRateModifier: 1
+    particeEmissionRateModifier: 0.5

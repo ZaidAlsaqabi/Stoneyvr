@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbac6e678443724c9bd2baf5d564c1d, type: 3}
   m_Name: Storm
   m_EditorClassIdentifier: 
-  showEditor: 0
-  showEffectControls: 0
-  showCloudControls: 0
+  showEditor: 1
+  showEffectControls: 1
+  showCloudControls: 1
   showFlatCloudControls: 0
   showFogControls: 0
-  showSkyControls: 0
-  showLightingControls: 0
-  showAuroraControls: 0
-  showEnvironmentControls: 0
-  showAudioControls: 0
+  showSkyControls: 1
+  showLightingControls: 1
+  showAuroraControls: 1
+  showEnvironmentControls: 1
+  showAudioControls: 1
   showAmbientAudioControls: 0
-  showWeatherAudioControls: 0
-  showLightningControls: 0
+  showWeatherAudioControls: 1
+  showLightningControls: 1
   cloudsOverride:
     ambientLightIntensity: 0.187
     showLayer1: 0
@@ -73,15 +73,15 @@ MonoBehaviour:
     flatCloudsAmbientIntensity: 1
     flatCloudsAbsorbtion: 0.782
   lightingOverride:
-    directLightIntensityModifier: 0.33
+    directLightIntensityModifier: 0.48
     ambientIntensityModifier: 0.5
-    shadowIntensity: 1
+    shadowIntensity: 0.485
   skyOverride:
     intensity: 1
     skyColorTint: {r: 1, g: 1, b: 1, a: 1}
   fogOverride:
-    fogDensity: 0
-    fogHeightFalloff: 0.0039
+    fogDensity: 0.277
+    fogHeightFalloff: 0
     fogHeight: 0
     fogDensity2: 0.598
     fogHeightFalloff2: 0.0177

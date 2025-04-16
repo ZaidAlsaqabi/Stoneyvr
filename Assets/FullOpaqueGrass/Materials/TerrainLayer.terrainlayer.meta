@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c94f27b056146748a902b8d92a805ca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313863
+  packageName: Full Opaque Wind & Grass
+  packageVersion: 1.0
+  assetPath: Assets/FullOpaqueGrass/Materials/TerrainLayer.terrainlayer
+  uploadId: 743988

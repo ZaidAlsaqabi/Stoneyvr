@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c853b561cbbf0941a98d087c3544f6a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 313863
+  packageName: Full Opaque Wind & Grass
+  packageVersion: 1.0
+  assetPath: Assets/FullOpaqueGrass/Materials/M_ParticlesLit_TwoSided.mat
+  uploadId: 743988

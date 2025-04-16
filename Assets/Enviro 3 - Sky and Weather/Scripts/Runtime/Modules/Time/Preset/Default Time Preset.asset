@@ -19,17 +19,22 @@ MonoBehaviour:
     simulate: 0
     secSerial: 0
     minSerial: 0
-    hourSerial: 17
-    daySerial: 26
-    monthSerial: 8
-    yearSerial: 2024
-    timeOfDay: 17
+    hourSerial: 22
+    daySerial: 1
+    monthSerial: 4
+    yearSerial: 2025
+    timeOfDay: 22
     latitude: 0
     longitude: 0
     utcOffset: 0
     cycleLengthInMinutes: 10
-    dayLengthModifier: 1
-    nightLengthModifier: 1
+    dayLengthModifier: 0.1
+    nightLengthModifier: 10
+    calenderType: 0
+    daysInMonth: 10
+    monthsInYear: 4
+    customSunOffset: -8
+    customSunRotation: 0
   preset: {fileID: 0}
   showTimeControls: 1
   showLocationControls: 0
