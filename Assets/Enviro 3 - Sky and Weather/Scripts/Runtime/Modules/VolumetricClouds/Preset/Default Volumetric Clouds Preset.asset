@@ -20,31 +20,31 @@ MonoBehaviour:
     cloudsWindDirectionYModifier: 1
     windSpeedModifier: 0.015
     windUpwards: 0.02
-    coverage: -0.102
+    coverage: 0.48
     worleyFreq2: 2
     worleyFreq1: 4
     dilateCoverage: 1
-    dilateType: 1
-    cloudsTypeModifier: 0.8
+    dilateType: 0.233
+    cloudsTypeModifier: 0.804
     locationOffset: {x: 0, y: 0}
     bottomCloudsHeight: 2000
     topCloudsHeight: 8000
-    density: 0.406
-    densitySmoothness: 1.3
-    scatteringIntensity: 0.788
-    silverLiningSpread: 0.903
-    powderIntensity: 1
-    curlIntensity: 0.3
+    density: 0.2
+    densitySmoothness: 1.65
+    scatteringIntensity: 0.12
+    silverLiningSpread: 0.8
+    powderIntensity: 0.219
+    curlIntensity: 0.2
     lightStepModifier: 0.15
-    lightAbsorbtion: 0.722
-    multiScatteringA: 0.541
-    multiScatteringB: 0.349
-    multiScatteringC: 0.577
+    lightAbsorbtion: 1.286
+    multiScatteringA: 0.44
+    multiScatteringB: 0.177
+    multiScatteringC: 0.44
     baseNoiseUV: 6
     detailNoiseUV: 28
     baseErosionIntensity: 0
-    detailErosionIntensity: 0.3
-    anvilBias: 0.177
+    detailErosionIntensity: 0.8
+    anvilBias: 0.651
   settingsLayer2:
     cloudsWindDirectionXModifier: -1
     cloudsWindDirectionYModifier: -1
@@ -105,6 +105,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 5
       m_NumAlphaKeys: 2
     moonLightColorGradient:
@@ -134,6 +135,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 3
       m_NumAlphaKeys: 2
     ambientColorGradient:
@@ -163,6 +165,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 4
       m_NumAlphaKeys: 2
     sunLightColor: {r: 0, g: 0, b: 0, a: 0}
@@ -178,7 +181,7 @@ MonoBehaviour:
     cloudsWorldScale: 5000000
     maxRenderDistance: 70000
     atmosphereColorSaturateDistance: 35000
-    ambientLighIntensity: 1
+    ambientLighIntensity: 0.6
     cloudShadows: 0
     cloudShadowsIntensity: 2
     cloudsTravelSpeed: 0

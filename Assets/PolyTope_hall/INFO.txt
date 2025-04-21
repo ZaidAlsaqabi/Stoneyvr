@@ -1,0 +1,16 @@
+Thank you for the purchase of Polytope Vr Hall.
+
+Your support is hugely appreciated!
+
+Please if you get a spare minute I ask if you could rate this asset, so I can make more assets like this & add more content to this VR Hall.
+
+The demo scene is currently lit with realtime lighting, however you can click the prefabs to static and bake lighting into the model along with AO and Final Gather, Also set any lights in your scene to bake shadows or realtime shadows.
+This is great for mobile devices!
+
+Included are all the texture maps you should need.
+
+Textures are 2048x2048 However you could set certain textures to 1024 or lower depending on your needs, A good tip would be to lower the AO or roughness maps while keeping your diffuse higher.
+
+Thank you,
+
+Polytope

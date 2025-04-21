@@ -16,10 +16,10 @@ MonoBehaviour:
   showSaveLoad: 0
   active: 1
   Settings:
-    volumetrics: 1
+    volumetrics: 0
     steps: 32
-    quality: 1
-    scattering: 0.3
+    quality: 0
+    scattering: 0.39
     scatteringMultiplier:
       serializedVersion: 2
       m_Curve:
@@ -62,8 +62,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    extinction: 0.05
-    anistropy: 0.5
+    extinction: 0.232
+    anistropy: 0.105
     maxRange: 1000
     maxRangePointSpot: 100
     noiseIntensity: 0
@@ -71,18 +71,19 @@ MonoBehaviour:
     windDirection: {x: 3.9, y: 0, z: 0}
     noise: {fileID: 0}
     ditheringTex: {fileID: 2800000, guid: 711e788cbc742bb439b3c7cad60651e3, type: 3}
-    fog: 1
+    fog: 0
+    fogQualityMode: 1
     floatingPointOriginMod: {x: 0, y: 0, z: 0}
     globalFogHeight: 0
-    fogDensity: 0.059
-    fogHeightFalloff: 0.0045
+    fogDensity: 0.02
+    fogHeightFalloff: 0.0016
     fogHeight: 0
-    fogDensity2: 0.053
-    fogHeightFalloff2: 0.05
-    fogHeight2: 0
+    fogDensity2: 0.312
+    fogHeightFalloff2: 0.0417
+    fogHeight2: -40
     fogMaxOpacity: 1
     startDistance: 0.01
-    fogColorBlend: 0.7
+    fogColorBlend: 0.5
     fogColorMod: {r: 1, g: 1, b: 1, a: 1}
     ambientColorGradient:
       serializedVersion: 2
@@ -111,11 +112,12 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 4
       m_NumAlphaKeys: 2
     unityFog: 0
     unityFogMode: 2
-    unityFogDensity: 0.05
+    unityFogDensity: 0.002
     unityFogStartDistance: 0
     unityFogEndDistance: 1000
     unityFogColor:
@@ -145,6 +147,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 6
       m_NumAlphaKeys: 2
   preset: {fileID: 0}
@@ -152,6 +155,7 @@ MonoBehaviour:
   showVolumetricsControls: 0
   showUnityFogControls: 0
   fogLights: []
+  customFogDensityModifer: 1
   fogMat: {fileID: 0}
   volumetricsMat: {fileID: 0}
   blurMat: {fileID: 0}

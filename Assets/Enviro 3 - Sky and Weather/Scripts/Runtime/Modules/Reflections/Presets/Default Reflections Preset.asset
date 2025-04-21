@@ -16,7 +16,7 @@ MonoBehaviour:
   showSaveLoad: 0
   active: 1
   Settings:
-    globalReflections: 1
+    globalReflections: 0
     customRendering: 1
     customRenderingTimeSlicing: 1
     globalReflectionTimeSlicingMode: 1

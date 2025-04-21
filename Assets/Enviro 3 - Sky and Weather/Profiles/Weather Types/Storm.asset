@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbac6e678443724c9bd2baf5d564c1d, type: 3}
   m_Name: Storm
   m_EditorClassIdentifier: 
-  showEditor: 1
-  showEffectControls: 1
+  showEditor: 0
+  showEffectControls: 0
   showCloudControls: 1
   showFlatCloudControls: 0
   showFogControls: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
     flatCloudsAmbientIntensity: 1
     flatCloudsAbsorbtion: 0.782
   lightingOverride:
-    directLightIntensityModifier: 0.48
+    directLightIntensityModifier: 0.5
     ambientIntensityModifier: 0.5
     shadowIntensity: 0.485
   skyOverride:
@@ -104,7 +104,7 @@ MonoBehaviour:
   audioOverride:
     ambientOverride: []
     weatherOverride:
-    - showEditor: 0
+    - showEditor: 1
       name: Heavy Rain
       volume: 1
       spring: 0

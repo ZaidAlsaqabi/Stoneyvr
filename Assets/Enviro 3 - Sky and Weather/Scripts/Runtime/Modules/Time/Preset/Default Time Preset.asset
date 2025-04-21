@@ -19,17 +19,17 @@ MonoBehaviour:
     simulate: 0
     secSerial: 0
     minSerial: 0
-    hourSerial: 22
+    hourSerial: 1
     daySerial: 1
     monthSerial: 4
-    yearSerial: 2025
-    timeOfDay: 22
+    yearSerial: 1
+    timeOfDay: 1
     latitude: 0
     longitude: 0
     utcOffset: 0
     cycleLengthInMinutes: 10
     dayLengthModifier: 0.1
-    nightLengthModifier: 10
+    nightLengthModifier: 5.38
     calenderType: 0
     daysInMonth: 10
     monthsInYear: 4

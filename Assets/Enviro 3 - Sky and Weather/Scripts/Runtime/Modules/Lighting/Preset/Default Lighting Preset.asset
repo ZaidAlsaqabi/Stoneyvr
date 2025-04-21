@@ -130,6 +130,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 5
       m_NumAlphaKeys: 2
     moonColorGradient:
@@ -159,6 +160,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 4
       m_NumAlphaKeys: 2
     sunIntensityCurveHDRP:
@@ -341,6 +343,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 4
       m_NumAlphaKeys: 2
     ambientColorTintHDRP:
@@ -370,6 +373,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     controlExposure: 1
@@ -473,7 +477,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    directLightIntensityModifier: 1
+    directLightIntensityModifier: 0.539
     setAmbientLighting: 1
     ambientMode: 0
     ambientSkyColorGradient:
@@ -503,6 +507,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 5
       m_NumAlphaKeys: 2
     ambientEquatorColorGradient:
@@ -532,6 +537,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 5
       m_NumAlphaKeys: 2
     ambientGroundColorGradient:
@@ -561,6 +567,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
+      m_ColorSpace: -1
       m_NumColorKeys: 5
       m_NumAlphaKeys: 2
     ambientIntensityCurve:
@@ -587,8 +594,9 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    ambientIntensityModifier: 1
-    ambientSkyboxUpdateIntervall: 0.25
+    ambientIntensityModifier: 1.55
+    ambientUpdateEveryFrame: 0
+    ambientUpdateIntervall: 0.1
     shadowIntensity: 1
   preset: {fileID: 0}
   showDirectLightingControls: 0

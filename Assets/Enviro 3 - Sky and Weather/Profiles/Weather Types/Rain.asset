@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: Rain
   m_EditorClassIdentifier: 
   showEditor: 1
-  showEffectControls: 0
+  showEffectControls: 1
   showCloudControls: 0
-  showFlatCloudControls: 0
-  showFogControls: 0
-  showSkyControls: 0
-  showLightingControls: 0
-  showAuroraControls: 0
-  showEnvironmentControls: 0
+  showFlatCloudControls: 1
+  showFogControls: 1
+  showSkyControls: 1
+  showLightingControls: 1
+  showAuroraControls: 1
+  showEnvironmentControls: 1
   showAudioControls: 1
   showAmbientAudioControls: 1
   showWeatherAudioControls: 1
-  showLightningControls: 0
+  showLightningControls: 1
   cloudsOverride:
     ambientLightIntensity: 0.6
     showLayer1: 1
@@ -73,8 +73,8 @@ MonoBehaviour:
     flatCloudsAmbientIntensity: 1
     flatCloudsAbsorbtion: 0.6
   lightingOverride:
-    directLightIntensityModifier: 0.5
-    ambientIntensityModifier: 0.6
+    directLightIntensityModifier: 0.539
+    ambientIntensityModifier: 1.55
     shadowIntensity: 1
   skyOverride:
     intensity: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
     unityFogStartDistance: 0
     unityFogEndDistance: 1000
   auroraOverride:
-    auroraIntensity: 1
+    auroraIntensity: 0
   effectsOverride:
     effectsOverride:
     - showEditor: 1
@@ -106,14 +106,14 @@ MonoBehaviour:
     weatherOverride:
     - showEditor: 1
       name: Medium Rain
-      volume: 0.445
+      volume: 0.1
       spring: 0
       summer: 0
       autumn: 0
       winter: 0
   lightningOverride:
     lightningStorm: 0
-    randomLightningDelay: 1
+    randomLightningDelay: 60
   environmentOverride:
     temperatureWeatherMod: 0
     wetnessTarget: 1

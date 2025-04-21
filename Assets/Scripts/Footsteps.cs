@@ -15,23 +15,19 @@ public class Footsteps : MonoBehaviour
     private float timeSinceLastStep;
     private bool isMoving;
 
-    // Start is called before the first frame update
     void Start()
     {
-        // Add AudioSource if not already present
         if (audioSource == null)
         {
             audioSource = gameObject.AddComponent<AudioSource>();
         }
 
-        // Find move provider if not assigned
         if (moveProvider == null)
         {
             moveProvider = GetComponentInParent<ActionBasedContinuousMoveProvider>();
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (moveProvider == null) return;
@@ -39,7 +35,6 @@ public class Footsteps : MonoBehaviour
         Vector2 leftHandMovement = moveProvider.leftHandMoveAction.action.ReadValue<Vector2>();
         Vector2 rightHandMovement = moveProvider.rightHandMoveAction.action.ReadValue<Vector2>();
         
-        // Check if either hand is moving
         isMoving = leftHandMovement.magnitude > moveThreshold || 
                    rightHandMovement.magnitude > moveThreshold;
 
@@ -59,7 +54,7 @@ public class Footsteps : MonoBehaviour
     {
         if (footstepSounds == null || footstepSounds.Length == 0) return;
 
-        // Play random footstep sound
+       
         AudioClip randomStep = footstepSounds[Random.Range(0, footstepSounds.Length)];
         audioSource.PlayOneShot(randomStep);
     }
