@@ -20,9 +20,9 @@ MonoBehaviour:
   showEffects: 1
   showAurora: 1
   skyOverride:
-    skyMode: 0
+    skyMode: 1
   volumetricCloudsOverride:
-    volumetricClouds: 1
+    volumetricClouds: 0
     dualLayer: 0
     downsampling: 3
     stepsLayer1: 128
@@ -41,7 +41,7 @@ MonoBehaviour:
     cirrusClouds: 0
     flatClouds: 0
   auroraOverride:
-    aurora: 1
+    aurora: 0
     steps: 32
   effectsOverride:
     particeEmissionRateModifier: 0.5

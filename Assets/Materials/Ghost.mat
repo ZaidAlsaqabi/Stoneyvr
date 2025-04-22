@@ -27,130 +27,51 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ddfdc573a1e01ce4cb98bba933ff5966, type: 3}
+        m_Texture: {fileID: 2800000, guid: ac53d1fcf26154b4aa4af9989f51f8cc, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 1}
     - _DetailMap:
         m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: -0.08, y: 0.03}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 1}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d659fb0377d3ef040b3ecc13dc2abbc5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: fe7d4378949eab844b18a261165dd763, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AddPrecomputedVelocity: 0
-    - _AlphaClip: 0
     - _AlphaCutoff: 0.5
-    - _AlphaToMask: 0
-    - _AmplitudeSpeed: 2
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _BumpScale: 1
-    - _ClearCoatMask: 0
-    - _ClearCoatSmoothness: 0
+    - _AmplitudeSpeed: 0.5
+    - _BumpScale: 1.1
     - _ContrastDetailMap: 1
-    - _Cull: 2
-    - _Cutoff: 0.5
-    - _DesaturateBackground: 0.135
-    - _DetailAlbedoMapScale: 1
-    - _DetailNormalMapScale: 1
-    - _DetailScale: 0.32
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
+    - _DesaturateBackground: 0
+    - _DetailScale: 0.46
     - _DuplicateDetails: 1
     - _EnableSpecularLight: 0
-    - _EnvironmentReflections: 1
-    - _FresnelBias: 0.169
+    - _FresnelBias: 0.107
     - _FresnelIntensity: 1
-    - _FresnelPower: 2
-    - _GlossMapScale: 0
+    - _FresnelPower: 3
     - _Glossiness: 0
-    - _GlossyReflections: 0
     - _Invert: 0
     - _MapContribution: 0
-    - _MaxValueAmplitude: 3
-    - _Metallic: 0
+    - _MaxValueAmplitude: 2
     - _MinValueAmplitude: 1.06
-    - _OcclusionStrength: 1
-    - _Opacity: 0.15
-    - _Parallax: 0.005
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Refraction: 1.1
+    - _Opacity: 1
+    - _Refraction: 1
     - _RotationAngle: 0
     - _RotationSpeed: 0
-    - _SelfIllumination: 1
+    - _SelfIllumination: 2.41
     - _ShadowOpacity: 0
-    - _Smoothness: 0.5
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SpreadDetailMap: 0
-    - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
-    - _Surface: 0
+    - _SpreadDetailMap: -0
     - _TexturesScale: 1
-    - _TranslationSpeed: 0
+    - _TranslationSpeed: 0.5
     - _UVScreenProjection: 0
-    - _WorkflowMode: 1
-    - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FillColorBackground: {r: 0, g: 0, b: 0, a: 0}
-    - _FresnelColor: {r: 1, g: 0.8, b: 0.7137255, a: 1}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _FillColorBackground: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 0.7842418, b: 0.6933962, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6899299098398554047

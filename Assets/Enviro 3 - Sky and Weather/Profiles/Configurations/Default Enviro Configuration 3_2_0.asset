@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Flat Clouds Module
   m_EditorClassIdentifier: 
   showModuleInspector: 1
-  showSaveLoad: 0
+  showSaveLoad: 1
   active: 1
   settings:
     useCirrusClouds: 0
     cirrusCloudsTex: {fileID: 2800000, guid: 75c66597a85001644b2de40147b8d196, type: 3}
     cirrusCloudsAlpha: 0
-    cirrusCloudsColorPower: 1
+    cirrusCloudsColorPower: 0
     cirrusCloudsCoverage: 0
     cirrusCloudsColor:
       serializedVersion: 2
@@ -130,9 +130,9 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 0fcdd472bd6a8ec429fc1e9bc978c4fa, type: 2}
   showCirrusCloudsControls: 0
   show2DCloudsControls: 0
-  cloudFlatBaseAnim: {x: 0.5089549, y: -0.38367736}
-  cloudFlatDetailAnim: {x: 0.1961089, y: 0.6129687}
-  cirrusAnim: {x: 0.11064315, y: -0.05575692}
+  cloudFlatBaseAnim: {x: 0.16807759, y: -0.04203415}
+  cloudFlatDetailAnim: {x: 0.4749556, y: 0.327374}
+  cirrusAnim: {x: 0.9401458, y: -0.88542396}
 --- !u!114 &-5447272849285213076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,11 +184,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 375eef0084d44344ebf50cbba7c1eadb, type: 3}
   m_Name: Sky Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 1
+  showModuleInspector: 0
   showSaveLoad: 1
   active: 1
   Settings:
-    skyMode: 0
+    skyMode: 1
     moonMode: 1
     forcedSkyboxSetup: 1
     frontColorGradient0:
@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Name: Audio Module
   m_EditorClassIdentifier: 
   showModuleInspector: 1
-  showSaveLoad: 0
+  showSaveLoad: 1
   active: 1
   Settings:
     ambientClips:
@@ -1187,8 +1187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7aa6806f1fff5b489f26777d053c723, type: 3}
   m_Name: Effects Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 0
-  showSaveLoad: 0
+  showModuleInspector: 1
+  showSaveLoad: 1
   active: 1
   Settings:
     enviroEffectSystemType: 0
@@ -1198,8 +1198,8 @@ MonoBehaviour:
       prefab: {fileID: 6936246916098640434, guid: bf3881f9fe64de14597de578d2acee5d, type: 3}
       localPositionOffset: {x: 0, y: 25, z: 0}
       localRotationOffset: {x: -90, y: 0, z: 0}
-      emissionRate: 1
-      maxEmission: 2000
+      emissionRate: 0.7
+      maxEmission: 100
     - mySystem: {fileID: 0}
       name: Snow
       prefab: {fileID: 1000011163096958, guid: 6ec12b7d8fc5e704fbbbe1641e4a6c56, type: 3}
@@ -1688,7 +1688,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    directLightIntensityModifier: 0.539
+    directLightIntensityModifier: 0
     setAmbientLighting: 1
     ambientMode: 0
     ambientSkyColorGradient:
@@ -1805,10 +1805,10 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    ambientIntensityModifier: 1.55
+    ambientIntensityModifier: 0
     ambientUpdateEveryFrame: 0
     ambientUpdateIntervall: 0.1
-    shadowIntensity: 1
+    shadowIntensity: 0
   preset: {fileID: 11400000, guid: 81d8b109102443243bcb0894975c0718, type: 2}
   showDirectLightingControls: 1
   showAmbientLightingControls: 1
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   m_Name: Environment Module
   m_EditorClassIdentifier: 
   showModuleInspector: 1
-  showSaveLoad: 0
+  showSaveLoad: 1
   active: 1
   Settings:
     season: 1
@@ -1971,7 +1971,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    temperature: 15.190478
+    temperature: 15.203269
     temperatureWeatherMod: 0
     temperatureCustomMod: 0
     temperatureChangingSpeed: 0.1
@@ -2006,7 +2006,7 @@ MonoBehaviour:
   m_Name: Quality Module
   m_EditorClassIdentifier: 
   showModuleInspector: 1
-  showSaveLoad: 0
+  showSaveLoad: 1
   active: 1
   Settings:
     defaultQuality: {fileID: 11400000, guid: a002704085c17f1439758fcee25df529, type: 2}
@@ -2226,7 +2226,7 @@ MonoBehaviour:
     moonLightColor: {r: 0, g: 0, b: 0, a: 0}
     ambientColor: {r: 0, g: 0, b: 0, a: 0}
     depthBlending: 0
-    depthTest: 1
+    depthTest: 0
     noise: {fileID: 11700000, guid: c901165679d774b46bb79227f2dfa3fa, type: 2}
     detailNoise: {fileID: 11700000, guid: ade9bb66636d08a428cb5d6009b0ff5d, type: 2}
     curlTex: {fileID: 2800000, guid: b7acf882b3b0d6c4a9d1a04c10fe146a, type: 3}
@@ -2240,7 +2240,7 @@ MonoBehaviour:
     cloudShadowsIntensity: 2
     cloudsTravelSpeed: 0
   settingsQuality:
-    volumetricClouds: 1
+    volumetricClouds: 0
     downsampling: 3
     stepsLayer1: 128
     stepsLayer2: 64
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   showDensityControls: 0
   showTextureControls: 0
   showWindControls: 0
-  cloudAnimLayer1: {x: 0.13264427, y: -0.8819779, z: -0.60272527}
+  cloudAnimLayer1: {x: 0.6206419, y: 0.6296977, z: 0.17675312}
   cloudAnimLayer2: {x: -0.4792946, y: 0.4792946, z: 0.105380446}
   cloudAnimNonScaledLayer1: {x: 0.006009331, y: -0.006009331, z: -0.1001555}
   cloudAnimNonScaledLayer2: {x: -0.00200311, y: 0.00200311, z: -0.1001555}
@@ -2273,11 +2273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6910768c241d1924f921a3f44198cfe1, type: 3}
   m_Name: Aurora Module
   m_EditorClassIdentifier: 
-  showModuleInspector: 0
+  showModuleInspector: 1
   showSaveLoad: 0
   active: 1
   Settings:
-    useAurora: 1
+    useAurora: 0
     auroraIntensityModifier: 0
     auroraIntensity:
       serializedVersion: 2
@@ -2340,7 +2340,7 @@ MonoBehaviour:
   m_Name: Weather Module
   m_EditorClassIdentifier: 
   showModuleInspector: 1
-  showSaveLoad: 0
+  showSaveLoad: 1
   active: 1
   Settings:
     weatherTypes:
@@ -2387,7 +2387,7 @@ MonoBehaviour:
     volumetrics: 0
     steps: 32
     quality: 0
-    scattering: 0.39
+    scattering: 0
     scatteringMultiplier:
       serializedVersion: 2
       m_Curve:
@@ -2430,8 +2430,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    extinction: 0.232
-    anistropy: 0.105
+    extinction: 0
+    anistropy: 0
     maxRange: 1000
     maxRangePointSpot: 100
     noiseIntensity: 0
@@ -2443,15 +2443,15 @@ MonoBehaviour:
     fogQualityMode: 1
     floatingPointOriginMod: {x: 0, y: 0, z: 0}
     globalFogHeight: 0
-    fogDensity: 0.02
-    fogHeightFalloff: 0.0016
+    fogDensity: 0
+    fogHeightFalloff: 0
     fogHeight: 0
-    fogDensity2: 0.312
-    fogHeightFalloff2: 0.0417
+    fogDensity2: 0
+    fogHeightFalloff2: 0
     fogHeight2: -40
     fogMaxOpacity: 1
     startDistance: 0.01
-    fogColorBlend: 0.5
+    fogColorBlend: 0
     fogColorMod: {r: 1, g: 1, b: 1, a: 1}
     ambientColorGradient:
       serializedVersion: 2
@@ -2902,6 +2902,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   customFogDensityModifer: 1
   fogMat: {fileID: 0}
   volumetricsMat: {fileID: 0}
@@ -2921,7 +2924,7 @@ MonoBehaviour:
   m_Name: Lightning Module
   m_EditorClassIdentifier: 
   showModuleInspector: 1
-  showSaveLoad: 0
+  showSaveLoad: 1
   active: 1
   Settings:
     prefab: {fileID: 8233971941884837668, guid: 3686e34c2aa90c44e8eab718f3bf99b6, type: 3}

@@ -20,7 +20,7 @@ MonoBehaviour:
   showSkyControls: 1
   showLightingControls: 1
   showAuroraControls: 1
-  showEnvironmentControls: 1
+  showEnvironmentControls: 0
   showAudioControls: 1
   showAmbientAudioControls: 1
   showWeatherAudioControls: 1
@@ -66,31 +66,31 @@ MonoBehaviour:
   flatCloudsOverride:
     cirrusCloudsAlpha: 0
     cirrusCloudsCoverage: 0
-    cirrusCloudsColorPower: 1
+    cirrusCloudsColorPower: 0
     flatCloudsCoverage: 0
     flatCloudsDensity: 1
     flatCloudsLightIntensity: 1
     flatCloudsAmbientIntensity: 1
     flatCloudsAbsorbtion: 0.6
   lightingOverride:
-    directLightIntensityModifier: 0.539
-    ambientIntensityModifier: 1.55
-    shadowIntensity: 1
+    directLightIntensityModifier: 0
+    ambientIntensityModifier: 0
+    shadowIntensity: 0
   skyOverride:
     intensity: 1
     skyColorTint: {r: 1, g: 1, b: 1, a: 1}
   fogOverride:
-    fogDensity: 0.02
-    fogHeightFalloff: 0.0016
+    fogDensity: 0
+    fogHeightFalloff: 0
     fogHeight: 0
-    fogDensity2: 0.312
-    fogHeightFalloff2: 0.0417
+    fogDensity2: 0
+    fogHeightFalloff2: 0
     fogHeight2: -40
-    fogColorBlend: 0.5
+    fogColorBlend: 0
     fogColorMod: {r: 1, g: 1, b: 1, a: 1}
-    scattering: 0.39
-    extinction: 0.232
-    anistropy: 0.105
+    scattering: 0
+    extinction: 0
+    anistropy: 0
     unityFogDensity: 0.002
     unityFogStartDistance: 0
     unityFogEndDistance: 1000
@@ -100,7 +100,7 @@ MonoBehaviour:
     effectsOverride:
     - showEditor: 1
       name: Rain
-      emission: 1
+      emission: 0.7
   audioOverride:
     ambientOverride: []
     weatherOverride:

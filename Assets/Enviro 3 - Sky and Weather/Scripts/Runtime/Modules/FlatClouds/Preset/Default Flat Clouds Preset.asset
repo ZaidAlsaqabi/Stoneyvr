@@ -19,7 +19,7 @@ MonoBehaviour:
     useCirrusClouds: 0
     cirrusCloudsTex: {fileID: 2800000, guid: 75c66597a85001644b2de40147b8d196, type: 3}
     cirrusCloudsAlpha: 0
-    cirrusCloudsColorPower: 1
+    cirrusCloudsColorPower: 0
     cirrusCloudsCoverage: 0
     cirrusCloudsColor:
       serializedVersion: 2
