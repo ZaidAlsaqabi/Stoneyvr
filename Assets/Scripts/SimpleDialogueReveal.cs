@@ -565,7 +565,7 @@ public class SimpleDialogueReveal : MonoBehaviour
         }
         
         // Transition to starting scene (scene 0)
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
     
     private void PlayFragmentVoiceLine(int collectionOrder)
