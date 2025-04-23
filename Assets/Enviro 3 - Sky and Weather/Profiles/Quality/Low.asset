@@ -20,7 +20,7 @@ MonoBehaviour:
   showEffects: 1
   showAurora: 1
   skyOverride:
-    skyMode: 1
+    skyMode: 0
   volumetricCloudsOverride:
     volumetricClouds: 0
     dualLayer: 0

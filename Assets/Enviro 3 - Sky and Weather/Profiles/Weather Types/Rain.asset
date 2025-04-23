@@ -20,7 +20,7 @@ MonoBehaviour:
   showSkyControls: 1
   showLightingControls: 1
   showAuroraControls: 1
-  showEnvironmentControls: 0
+  showEnvironmentControls: 1
   showAudioControls: 1
   showAmbientAudioControls: 1
   showWeatherAudioControls: 1
@@ -88,7 +88,7 @@ MonoBehaviour:
     fogHeight2: -40
     fogColorBlend: 0
     fogColorMod: {r: 1, g: 1, b: 1, a: 1}
-    scattering: 0
+    scattering: 0.034
     extinction: 0
     anistropy: 0
     unityFogDensity: 0.002
@@ -106,7 +106,7 @@ MonoBehaviour:
     weatherOverride:
     - showEditor: 1
       name: Medium Rain
-      volume: 0.1
+      volume: 0.5
       spring: 0
       summer: 0
       autumn: 0

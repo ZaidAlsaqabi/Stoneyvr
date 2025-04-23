@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 5259c1d31b597ed43820bfb10afbec7b
+guid: f8f9aa2cc0ed64840994d0ea9b382864
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: AssortedBoulders
-    second: {fileID: 2100000, guid: 0cb8d77af75c081438ad3df639bd0550, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -35,7 +30,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
