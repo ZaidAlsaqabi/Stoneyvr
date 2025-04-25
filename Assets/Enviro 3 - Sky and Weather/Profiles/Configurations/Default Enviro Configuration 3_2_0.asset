@@ -130,9 +130,9 @@ MonoBehaviour:
   preset: {fileID: 11400000, guid: 0fcdd472bd6a8ec429fc1e9bc978c4fa, type: 2}
   showCirrusCloudsControls: 1
   show2DCloudsControls: 0
-  cloudFlatBaseAnim: {x: -0.25888428, y: 0.38476714}
-  cloudFlatDetailAnim: {x: 0.3397612, y: 0.4684792}
-  cirrusAnim: {x: -0.27315053, y: 0.32796437}
+  cloudFlatBaseAnim: {x: -0.08719113, y: 0.21307406}
+  cloudFlatDetailAnim: {x: -0.8020096, y: -0.38998678}
+  cirrusAnim: {x: -0.1873039, y: 0.24211726}
 --- !u!114 &-5447272849285213076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1039,7 +1039,7 @@ MonoBehaviour:
       playBackType: 0
       myAudioSource: {fileID: 0}
       loop: 1
-      volume: 0.5
+      volume: 0.1
       volumeCurve:
         serializedVersion: 2
         m_Curve: []
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   showDensityControls: 0
   showTextureControls: 0
   showWindControls: 0
-  cloudAnimLayer1: {x: 0.9806657, y: 0.2705686, z: -0.3971374}
+  cloudAnimLayer1: {x: -0.7622936, y: 0.013028827, z: 0.2329529}
   cloudAnimLayer2: {x: -0.4792946, y: 0.4792946, z: 0.105380446}
   cloudAnimNonScaledLayer1: {x: 0.006009331, y: -0.006009331, z: -0.1001555}
   cloudAnimNonScaledLayer2: {x: -0.00200311, y: 0.00200311, z: -0.1001555}
@@ -2523,6 +2523,7 @@ MonoBehaviour:
   showVolumetricsControls: 0
   showUnityFogControls: 1
   fogLights:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

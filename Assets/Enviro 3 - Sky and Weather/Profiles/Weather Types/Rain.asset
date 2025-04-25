@@ -106,7 +106,7 @@ MonoBehaviour:
     weatherOverride:
     - showEditor: 1
       name: Medium Rain
-      volume: 0.5
+      volume: 0.1
       spring: 0
       summer: 0
       autumn: 0
