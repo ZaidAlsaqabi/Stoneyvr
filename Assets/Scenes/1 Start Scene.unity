@@ -1582,15 +1582,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 86ff5000909fe0e46ac3feb68f5d4f00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.039
+      value: -0.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 86ff5000909fe0e46ac3feb68f5d4f00, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.236
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 86ff5000909fe0e46ac3feb68f5d4f00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.305
+      value: 4.36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 86ff5000909fe0e46ac3feb68f5d4f00, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9605,7 +9605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468304402158543695, guid: 5adb3f4a0e5fa5d4fb46f7be9f4a9a46, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 529.47363
+      value: 16.871397
       objectReference: {fileID: 0}
     - target: {fileID: 8468304402158543695, guid: 5adb3f4a0e5fa5d4fb46f7be9f4a9a46, type: 3}
       propertyPath: InitialModule.startLifetime.scalar

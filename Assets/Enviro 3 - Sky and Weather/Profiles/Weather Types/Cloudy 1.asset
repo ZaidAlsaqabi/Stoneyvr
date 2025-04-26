@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cbac6e678443724c9bd2baf5d564c1d, type: 3}
   m_Name: Cloudy 1
   m_EditorClassIdentifier: 
-  showEditor: 0
+  showEditor: 1
   showEffectControls: 0
   showCloudControls: 0
-  showFlatCloudControls: 0
+  showFlatCloudControls: 1
   showFogControls: 1
   showSkyControls: 1
-  showLightingControls: 0
-  showAuroraControls: 0
-  showEnvironmentControls: 0
-  showAudioControls: 0
-  showAmbientAudioControls: 0
-  showWeatherAudioControls: 0
-  showLightningControls: 0
+  showLightingControls: 1
+  showAuroraControls: 1
+  showEnvironmentControls: 1
+  showAudioControls: 1
+  showAmbientAudioControls: 1
+  showWeatherAudioControls: 1
+  showLightningControls: 1
   cloudsOverride:
     ambientLightIntensity: 1
     showLayer1: 0
@@ -73,12 +73,12 @@ MonoBehaviour:
     flatCloudsAmbientIntensity: 1.05
     flatCloudsAbsorbtion: 1.814
   lightingOverride:
-    directLightIntensityModifier: 1
-    ambientIntensityModifier: 1
+    directLightIntensityModifier: 1.2
+    ambientIntensityModifier: 0.88
     shadowIntensity: 1
   skyOverride:
     intensity: 1
-    skyColorTint: {r: 1, g: 1, b: 1, a: 1}
+    skyColorTint: {r: 0.7311321, g: 0.90071857, b: 1, a: 1}
   fogOverride:
     fogDensity: 0.041
     fogHeightFalloff: 0.0121
@@ -100,9 +100,9 @@ MonoBehaviour:
     effectsOverride: []
   audioOverride:
     ambientOverride:
-    - showEditor: 0
+    - showEditor: 1
       name: Day
-      volume: 1
+      volume: 0.1
       spring: 0
       summer: 0
       autumn: 0
