@@ -9605,7 +9605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468304402158543695, guid: 5adb3f4a0e5fa5d4fb46f7be9f4a9a46, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 16.871397
+      value: 0.53759813
       objectReference: {fileID: 0}
     - target: {fileID: 8468304402158543695, guid: 5adb3f4a0e5fa5d4fb46f7be9f4a9a46, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -10813,7 +10813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
+  m_System: {fileID: 3127728408035508707}
   m_TurnSpeed: 60
   m_LeftHandTurnAction:
     m_UseReference: 0
