@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cloudy 1
   m_EditorClassIdentifier: 
   showEditor: 1
-  showEffectControls: 0
+  showEffectControls: 1
   showCloudControls: 0
   showFlatCloudControls: 1
   showFogControls: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
     unityFogStartDistance: 0
     unityFogEndDistance: 1000
   auroraOverride:
-    auroraIntensity: 1
+    auroraIntensity: 0
   effectsOverride:
     effectsOverride: []
   audioOverride:
