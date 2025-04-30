@@ -18,7 +18,7 @@ public class WeatherChangeSceneRain : MonoBehaviour
             try
             {
                 enviroManager.Weather.ChangeWeather("Rain");
-                enviroManager.Time.SetTimeOfDay(24f);
+                enviroManager.Time.SetTimeOfDay(1f);
        
             }
             catch (System.Exception e)
